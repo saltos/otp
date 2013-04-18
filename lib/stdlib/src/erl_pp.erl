@@ -35,7 +35,7 @@
                        | fun((Expr :: erl_parse:abstract_expr(),
                               CurrentIndentation :: integer(),
                               CurrentPrecedence :: non_neg_integer(),
-                              HookFunction :: hook_function()) ->
+                              Options :: options()) ->
                                    io_lib:chars())).
 
 -type(option() :: {hook, hook_function()}
